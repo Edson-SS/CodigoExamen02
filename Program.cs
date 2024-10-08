@@ -92,7 +92,7 @@ EmpleadoBase CrearEmpleado (int opcionPuesto, int idEmpleado)
             GerenteRRHH gerenteRRHH = new GerenteRRHH()
             {
                 Nombre = nombre,
-                IdEmpleado = 2,
+                IdEmpleado = idEmpleado,
                 Puesto = "Gerente RRHH"
             };
             return gerenteRRHH;
@@ -101,7 +101,7 @@ EmpleadoBase CrearEmpleado (int opcionPuesto, int idEmpleado)
             Desarrollador desarrollador = new Desarrollador()
             {
                 Nombre = nombre,
-                IdEmpleado = 2,
+                IdEmpleado = idEmpleado,
                 Puesto = "Desarrollador"
             };
             return desarrollador;
@@ -110,7 +110,7 @@ EmpleadoBase CrearEmpleado (int opcionPuesto, int idEmpleado)
             ConsultorExterno consultorExterno = new ConsultorExterno()
             {
                 Nombre = nombre,
-                IdEmpleado = 2,
+                IdEmpleado = idEmpleado,
                 Puesto = "Consultor Externo"
             };
             return consultorExterno;
